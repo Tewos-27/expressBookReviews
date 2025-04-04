@@ -5,7 +5,6 @@ let isValid = require("./auth_users.js").isValid;
 let users = require("./auth_users.js").users;
 const public_users = express.Router();
 
-
  // Assume this is where user data is stored
 
  public_users.post('/register', function (req, res) {
